@@ -1,0 +1,10 @@
+.star {
+  color: gold;
+}
+.card-container {
+  display: flex;
+}
+
+.card {
+  margin-right: 10px;
+}
