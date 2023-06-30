@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const AboutCourse = () => {
@@ -15,10 +14,7 @@ const AboutCourse = () => {
           </p>
         </div> */}
         <div style={{ display: 'flex' }}>
-          <div
-            className="card"
-            style={{ width: '18rem', marginRight: '10px' }}
-          >
+          <div className="card" style={{ width: '18rem', marginRight: '10px' }}>
             <div className="card-body">
               <h5 className="card-title">Interactive Features</h5>
               <p className="card-text">
@@ -41,13 +37,9 @@ const AboutCourse = () => {
           </div>
         </div>
       </div>
-      
 
       <div style={{ display: 'flex', marginTop: '40px' }}>
-        <div
-          className="card"
-          style={{ width: '18rem', marginRight: '10px' }}
-        >
+        <div className="card" style={{ width: '18rem', marginRight: '10px' }}>
           <div className="card-body">
             <h5 className="card-title">Interactive Features</h5>
             <p className="card-text">
@@ -67,9 +59,19 @@ const AboutCourse = () => {
               industry. Lorem Ipsum has been
             </p>
           </div>
+          
         </div>
+        <img
+              src="https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg?t=st=1688123156~exp=1688123756~hmac=f9642c0e73845ff25cac83a27d1fb1d0bbcb82a469cca88373d36e1d9c22c984/150/150"
+              
+              style={{
+                width: '100px',
+                height: '100px',
+                borderRadius: '50%',
+                objectFit: 'cover',
+              }}
+            />
       </div>
-      
     </div>
   );
 };

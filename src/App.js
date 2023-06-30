@@ -7,11 +7,15 @@ import AboutCourse from './Components/AboutCourse';
 import Plan from './Components/Plan';
 import PlanCard from './Components/PlanCard';
 import CustomerReview from './Components/CustomerReview';
+import Footer from './Components/Footer';
+
 const App = () => {
   return (
     <div className="p-[20px]">
       <NavBar />
+      
       <Home />
+      
       <div className="p-4">
         <AboutCourse />
       </div>
@@ -24,6 +28,9 @@ const App = () => {
    <div>
      <CustomerReview/>
      </div>
+     <div>
+       <Footer/>
+       </div>
     </div>
   );
 };

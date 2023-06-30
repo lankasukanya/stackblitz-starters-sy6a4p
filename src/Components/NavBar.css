@@ -2,3 +2,14 @@
   background-color: red;
   flex-direction: row;
 }
+
+.box::after {
+  height: 600px;
+  width: 500px;
+  position: absolute;
+  content: '';
+  border-top: 50vh solid purple;
+  border-bottom: 50vh solid purple;
+  border-right: 100vw solid transparent;
+  width: 0;
+}
