@@ -1,7 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons';
-//import './Components/CustomerReview.css';
 
 const CustomerReview = () => {
   return (
@@ -74,7 +73,6 @@ const CustomerReview = () => {
 
         <div className="card" style={{ width: '18rem' }}>
           <div className="card-body" style={{ display: 'flex' }}>
-            {/* <FontAwesomeIcon icon={faArrowRight} size="lg" style={{ marginLeft: '1rem' }} /> */}
             <FontAwesomeIcon
               icon={faArrowAltCircleRight}
               size="2x"

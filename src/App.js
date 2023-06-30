@@ -8,14 +8,16 @@ import Plan from './Components/Plan';
 import PlanCard from './Components/PlanCard';
 import CustomerReview from './Components/CustomerReview';
 import Footer from './Components/Footer';
+import ImageAndContent from './Components/ImageAndContent';
 
 const App = () => {
   return (
     <div className="p-[20px]">
       <NavBar />
       
-      <Home />
-      
+      <Home /> 
+      {/* <ImageAndContent/> */}
+    
       <div className="p-4">
         <AboutCourse />
       </div>
